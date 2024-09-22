@@ -9,7 +9,7 @@ Java Spring boot application to process point in receipt
 ## Get started 
 ### Clone Repository
 ```bash
-  git git@github.com:YemaneHadis/receipt-processor.git
+  git clone git@github.com:YemaneHadis/receipt-processor.git
   cd receipt-processor
 ```
 
