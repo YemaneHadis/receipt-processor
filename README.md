@@ -65,10 +65,17 @@ Java Spring boot application to process point in receipt
   ]
 }
 ```
+* **Response:**
+ ``` json
+        "id": "{{uuid}}"
+```
 2. #### Get Points for Receipt
 * **URL:** `http://localhost:8080/receipts/{id}/points`
 * **Method:** `GET`
 * **Path Parameters:**
 * * **id:** The ID of the receipt
-
+* **Response:**
+ ``` json
+        "points": "{{points}}"
+```
 
