@@ -8,5 +8,4 @@ public class QuarterMultiplePointCalculator implements PointCalculator {
     public int calculatePoints(Receipt receipt) {
         return receipt.getTotal() %0.25 == 0 ? 25:0;
     }
-    // todo where to put the calculation for calculate the total
 }
