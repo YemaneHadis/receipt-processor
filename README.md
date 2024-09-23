@@ -13,11 +13,6 @@ Java Spring boot application to process point in receipt
   cd receipt-processor
 ```
 
-### Build the Project
-```bash
-   mvn clean install
-
-```
 ### Build the Docker image
 ```bash
    docker build -t receipt-processor .
