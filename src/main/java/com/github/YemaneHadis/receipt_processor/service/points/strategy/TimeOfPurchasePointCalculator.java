@@ -11,7 +11,7 @@ public class TimeOfPurchasePointCalculator implements PointCalculator {
         LocalTime start = LocalTime.of(14,0); // 2:00 PM
         LocalTime end = LocalTime.of(16,0); // 4:00 PM
         if (receipt.getPurchaseTime().isAfter(start) && receipt.getPurchaseTime().isBefore(end)){
-            return 20;
+            return 10;
         }
         return 0;
     }
